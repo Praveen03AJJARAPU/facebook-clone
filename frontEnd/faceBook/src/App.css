@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bar {
+ scrollbar-width: none;
+}
+
+.bar::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: transparent;
+}
+
+.bar::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.delete {
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all ease 0.5s
+
+  }
