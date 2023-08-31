@@ -92,9 +92,6 @@ const color = story?.stories[index]?.color;
               </div>
               <div>
                 <div className="flex items-center">
-                  <div onClick={() => handleDelete(story?.stories[index]?.id)}>
-                    <DeleteIcon className="text-red-500" />
-                  </div>
                   <div onClick={() => nav("/home")}>
                     <CancelIcon className="text-white " />
                   </div>
